@@ -1,0 +1,46 @@
+main {
+    padding: 2rem 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.materias-list-container {
+    background-color: #f8f9fa; /* Gris muy claro para el contenedor de la lista */
+    padding: 30px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 700px;
+}
+
+.materias-list-container h1 {
+    color: #00405C;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.materias-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.materias-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #b0bec5;
+}
+
+.materias-list li:last-child {
+    border-bottom: none;
+}
+
+.materia-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.materia-link:hover {
+    text-decoration: underline;
+}

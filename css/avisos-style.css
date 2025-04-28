@@ -1,0 +1,37 @@
+.avisos-lista {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.avisos-lista h3 {
+    color: #00405C;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b0bec5;
+    padding-bottom: 5px;
+}
+
+.avisos-lista ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.avisos-lista ul li {
+    margin-bottom: 8px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.avisos-lista ul li::before {
+    content: "\2022";
+    color: #00405C;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}

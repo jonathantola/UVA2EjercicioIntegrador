@@ -1,0 +1,40 @@
+main {
+    padding: 2rem 0;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.profile-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #00405C;
+}
+
+.personal-info h2 {
+    color: #00405C;
+    margin-bottom: 10px;
+}
+
+.personal-info p {
+    line-height: 1.2;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.personal-info strong {
+    color: #00405C;
+    font-weight: bold;
+}

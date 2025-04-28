@@ -1,0 +1,81 @@
+.actividades-uvas h5 {
+    color: #00405C;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.page-content-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: auto;
+}
+
+.section-title {
+    color: #00405C;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b0bec5;
+    padding-bottom: 5px;
+}
+
+.footer-info {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+    color: #37474f;
+    font-size: 0.9rem;
+}
+
+.left-column {
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    padding: 15px;
+}
+
+.actividades-uvas {
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+.list-group-item {
+    background-color: #e9ecef;
+}
+
+/* Estilo para los enlaces */
+.custom-link-primary {
+    color: #00405C;
+    /* Color base */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.25rem;
+}
+
+.custom-link-primary:hover {
+    background-color: #00405C;
+    /* Fondo al hacer hover */
+    color: white !important;
+    /* Texto blanco al hacer hover */
+    text-decoration: none;
+}
+
+.link-success {
+    color: #198754;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.25rem;
+}
+
+.link-success:hover {
+    background-color: #198754;
+    color: white !important;
+    text-decoration: none;
+}
